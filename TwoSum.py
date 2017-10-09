@@ -3,6 +3,13 @@
 # @Author  : Yulong Liu
 # @File    : TwoSum.py
 
+"""
+题号：1
+难度：easy
+链接：https://leetcode.com/problems/two-sum/description/
+描述：一个list里正好有两个数相加等于target，找出这两个数的位置
+"""
+
 
 class Solution(object):
     def twoSum(self, nums, target):

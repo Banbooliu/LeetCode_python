@@ -3,6 +3,13 @@
 # @Author  : Yulong Liu
 # @File    : LongestSubstringWithoutRepeatingCharacters.py
 
+"""
+题号：3
+难度：medium
+链接：https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
+描述：找一个字符串中无重复字符的最长子串
+"""
+
 
 class Solution(object):
     def lengthOfLongestSubstring(self, s):

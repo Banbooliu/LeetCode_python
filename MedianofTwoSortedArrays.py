@@ -3,6 +3,13 @@
 # @Author  : Yulong Liu
 # @File    : MedianofTwoSortedArrays.py
 
+"""
+题号：4
+难度：hard
+链接：https://leetcode.com/problems/median-of-two-sorted-arrays/description/
+描述：给两个升序排好的整数数组，找出其中位数，要求时间复杂度 O(log (m+n))
+"""
+
 
 class Solution(object):
     def findMedianSortedArrays(self, nums1, nums2):

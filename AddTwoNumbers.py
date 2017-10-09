@@ -3,6 +3,13 @@
 # @Author  : Yulong Liu
 # @File    : AddTwoNumbers.py
 
+"""
+题号：2
+难度：medium
+链接：https://leetcode.com/problems/add-two-numbers/description/
+描述：给两个非空链表，每个节点存一个0-9的整数，具体看例子吧
+"""
+
 
 # Definition for singly-linked list.
 class ListNode(object):
