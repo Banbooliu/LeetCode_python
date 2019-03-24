@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2017/10/5 12:05
 # @Author  : Yulong Liu
-# @File    : MedianofTwoSortedArrays.py
+# @File    : p0004-MedianofTwoSortedArrays.py
 
 """
 题号：4
@@ -25,11 +25,10 @@ class Solution(object):
             n = 1
         else:
             m += 1
-        print 'm=%d, n=%d' % (m, n)
+        print('m=%d, n=%d' % (m, n))
 
         while nums1 or nums2:
             x = self.get_next_min(nums1, nums2)
-            print 'llallal', x
             m -= 1
             if not m:
                 if not n:
@@ -74,4 +73,4 @@ if __name__ == '__main__':
 
     # a = []
     # b = [1]
-    print Solution().findMedianSortedArrays(a, b)
+    print(Solution().findMedianSortedArrays(a, b))

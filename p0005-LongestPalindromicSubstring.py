@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2017/10/5 15:43
 # @Author  : Yulong Liu
-# @File    : LongestPalindromicSubstring.py
+# @File    : p0005-LongestPalindromicSubstring.py
 
 """
 题号：5
@@ -24,9 +24,9 @@ class Solution(object):
         size = len(s)
         start = 0
         max_length = 1
-        F = [[False for x in xrange(size)] for y in xrange(size)]
+        F = [[False for x in range(size)] for y in range(size)]
         # 初始化边界数据
-        for i in xrange(size):
+        for i in range(size):
             F[i][i] = True
             if i+1 < size and s[i] == s[i+1]:
                 F[i][i+1] = True
@@ -34,8 +34,8 @@ class Solution(object):
                 max_length = 2
 
         # 依次判断每个长度的子串（由于长度1和2已结初始化了，这里直接从3开始判断）
-        for length in xrange(3, size+1):
-            for i in xrange(size-length+1):
+        for length in range(3, size+1):
+            for i in range(size-length+1):
                 j = i + length - 1
                 if F[i+1][j-1] and s[i] == s[j]:
                     F[i][j] = F[i+1][j-1]
@@ -77,4 +77,4 @@ class Solution(object):
         return maxs
 
 if __name__ == '__main__':
-    print Solution().longestPalindrome('babad')
+    print(Solution().longestPalindrome('babad'))

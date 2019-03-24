@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2017/10/10 16:56
 # @Author  : Yulong Liu
-# @File    : PalindromeNumber.py
+# @File    : p0009-PalindromeNumber.py
 
 """
 题号：9
@@ -38,4 +38,4 @@ class Solution(object):
         return x == y
 
 if __name__ == '__main__':
-    print Solution().isPalindrome(-101)
+    print(Solution().isPalindrome(-101))

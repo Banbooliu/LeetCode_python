@@ -10,7 +10,7 @@
 描述：把一串字符按照竖着的Z字形排列，并且横着读出来，具体要看例子才懂
 """
 
-from itertools import izip_longest
+from itertools import zip_longest
 
 
 class Solution(object):
@@ -34,8 +34,8 @@ class Solution(object):
 
         # 按新逻辑拼接
         res = m[0]
-        for i in xrange(1, numRows-1):
-            for x, y in izip_longest(m[i], m[step-i]):
+        for i in range(1, numRows-1):
+            for x, y in zip_longest(m[i], m[step-i]):
                 res += x
                 if y:
                     res += y
@@ -56,7 +56,6 @@ class Solution(object):
         index, step = 0, 1
 
         for x in s:
-            print 'test', x, index
             L[index] += x
             # print L
             if index == 0:
@@ -68,6 +67,6 @@ class Solution(object):
         return ''.join(L)
 
 if __name__ == '__main__':
-    # print Solution().convert2('ABCDEFGHIJKLMNOPQRST', 4)
-    print Solution().convert('abcdefghijklmn', 4)
-    # print Solution().convert('', 1)
+    # print(Solution().convert2('ABCDEFGHIJKLMNOPQRST', 4))
+    print(Solution().convert('abcdefghijklmn', 4))
+    # print(Solution().convert('', 1))

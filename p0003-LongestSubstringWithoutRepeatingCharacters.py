@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2017/10/5 11:50
 # @Author  : Yulong Liu
-# @File    : LongestSubstringWithoutRepeatingCharacters.py
+# @File    : p0003-LongestSubstringWithoutRepeatingCharacters.py
 
 """
 题号：3
@@ -34,4 +34,4 @@ class Solution(object):
 if __name__ == '__main__':
     # s = 'abcabcbb'
     s = 'pwwkew'
-    print Solution().lengthOfLongestSubstring(s)
+    print(Solution().lengthOfLongestSubstring(s))

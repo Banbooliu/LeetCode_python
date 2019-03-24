@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2017/10/4 23:54
 # @Author  : Yulong Liu
-# @File    : TwoSum.py
+# @File    : p0001-TwoSum.py
 
 """
 题号：1
@@ -26,4 +26,4 @@ class Solution(object):
 
 if __name__ == '__main__':
     test_list = [2, 7, 11, 15]
-    print Solution().twoSum(test_list, 9)
+    print(Solution().twoSum(test_list, 9))

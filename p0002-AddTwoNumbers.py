@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2017/10/5 00:08
 # @Author  : Yulong Liu
-# @File    : AddTwoNumbers.py
+# @File    : p0002-AddTwoNumbers.py
 
 """
 题号：2
@@ -40,7 +40,7 @@ class Solution(object):
                 l2 = l2.next
             temp_node.next = ListNode(add % 10)
             temp_node = temp_node.next
-            carry = add / 10
+            carry = add // 10
         return head.next
 
     def addTwoNumbers2(self, l1, l2):
@@ -87,11 +87,11 @@ if __name__ == '__main__':
     node4.next = node5
     node5.next = node6
 
-    print Solution().to_int(node1)
-    print Solution().to_int(node4)
+    print(Solution().to_int(node1))
+    print(Solution().to_int(node4))
 
     res_node = Solution().addTwoNumbers(node1, node4)
-    print res_node.val
-    print res_node.next.val
-    print res_node.next.next.val
-    print Solution().to_int(res_node)
+    print(res_node.val)
+    print(res_node.next.val)
+    print(res_node.next.next.val)
+    print(Solution().to_int(res_node))

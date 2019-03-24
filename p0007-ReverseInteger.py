@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2017/10/9 18:19
 # @Author  : Yulong Liu
-# @File    : ReverseInteger.py
+# @File    : p0007-ReverseInteger.py
 
 """
 题号：7
@@ -31,7 +31,7 @@ class Solution(object):
 
 
 if __name__ == '__main__':
-    print Solution().reverse(-2147483641)
-    print Solution().reverse(0)
-    print 2**31 - 1
-    print -2**31
+    print(Solution().reverse(-2147483641))
+    print(Solution().reverse(0))
+    print(2**31 - 1)
+    print(-2**31)

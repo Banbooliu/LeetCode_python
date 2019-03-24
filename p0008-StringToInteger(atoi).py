@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2017/10/9 18:31
 # @Author  : Yulong Liu
-# @File    : StringToInteger(atoi).py
+# @File    : p0008-StringToInteger(atoi).py
 
 """
 题号：8
@@ -45,8 +45,8 @@ class Solution(object):
         return res * negative
 
 if __name__ == '__main__':
-    print Solution().myAtoi('  -12b23d ')
-    print Solution().myAtoi('  ')
-    print Solution().myAtoi('')
-    print Solution().myAtoi('123')
-    print Solution().myAtoi('1234567890123')
+    print(Solution().myAtoi('  -12b23d '))
+    print(Solution().myAtoi('  '))
+    print(Solution().myAtoi(''))
+    print(Solution().myAtoi('123'))
+    print(Solution().myAtoi('1234567890123'))
