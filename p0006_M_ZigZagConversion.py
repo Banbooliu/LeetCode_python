@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2017/10/9 15:36
 # @Author  : Yulong Liu
-# @File    : ZigZagConversion.py
+# @File    : p0006_M_ZigZagConversion.py
 
 """
 题号：6

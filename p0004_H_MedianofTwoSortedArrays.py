@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2017/10/5 12:05
 # @Author  : Yulong Liu
-# @File    : p0004-MedianofTwoSortedArrays.py
+# @File    : p0004_H_MedianofTwoSortedArrays.py
 
 """
 题号：4

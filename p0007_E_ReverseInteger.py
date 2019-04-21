@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2017/10/9 18:19
 # @Author  : Yulong Liu
-# @File    : p0007-ReverseInteger.py
+# @File    : p0007_E_ReverseInteger.py
 
 """
 题号：7

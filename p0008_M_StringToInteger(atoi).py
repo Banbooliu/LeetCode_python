@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2017/10/9 18:31
 # @Author  : Yulong Liu
-# @File    : p0008-StringToInteger(atoi).py
+# @File    : p0008_M_StringToInteger(atoi).py
 
 """
 题号：8

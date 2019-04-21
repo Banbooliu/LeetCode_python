@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2017/10/5 15:43
 # @Author  : Yulong Liu
-# @File    : p0005-LongestPalindromicSubstring.py
+# @File    : p0005_M_LongestPalindromicSubstring.py
 
 """
 题号：5
